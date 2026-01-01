@@ -14,7 +14,10 @@ from typing import Optional
 
 import cv2
 import numpy as np
-import pkg_resources as pkg
+import warnings
+with warnings.catch_warnings():
+    warnings.filterwarnings("ignore", category=UserWarning, module="pkg_resources")
+    import pkg_resources as pkg
 import psutil
 import torch
 from matplotlib import font_manager

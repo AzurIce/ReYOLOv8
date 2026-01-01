@@ -78,7 +78,7 @@ class EventVideoDetectionDataset(Dataset):
            
            
 
-           return np.array(labels)    
+           return np.array(labels, dtype=object)    
            
         else:
              return labels  

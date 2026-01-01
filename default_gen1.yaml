@@ -89,7 +89,7 @@ channels: 10
 rect: True
 cos_lr: False
 imgsz: 320
-val_epoch: 1
+val_epoch: 10
 resume: False 
 
 speed: False

@@ -89,12 +89,15 @@ channels: 10
 rect: True
 cos_lr: False
 imgsz: 320
-val_epoch: 1
+val_epoch: 10
 resume: False 
 
 speed: False
 zero_hidden: False
 # Custom config.yaml ---------------------------------------------------------------------------------------------------
 cfg:  # for overriding defaults.yaml
+
+# Mosaic settings
+close_mosaic: 10  # (int) disable mosaic augmentation for final epochs
 
 
