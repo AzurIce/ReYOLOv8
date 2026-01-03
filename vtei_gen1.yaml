@@ -8,7 +8,7 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: F:\_研究生\_研一上\计算感知\data\gen1\reyolo\GEN1_vtei_304_240_50ms_bins_10\images
+path: E:/_evt/ReYOLOv8-data/GEN1_vtei_304_240_50ms_bins_5/images
 train: train
 val: val
 test: test
